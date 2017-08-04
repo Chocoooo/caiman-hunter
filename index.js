@@ -18,6 +18,6 @@ module.exports = function caimanHunter(dispatch) {
 		channel: 21,
 		authorName: 'Caiman-hunter',
 		message: 'GIGANTIC CAIMAN FOUND!'
-		});
+		})
 	}
 }
