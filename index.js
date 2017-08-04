@@ -2,13 +2,13 @@ module.exports = function caimanHunter(dispatch) {
 	
 	//Hooking spawns
 	dispatch.hook('S_SPAWN_NPC', 1, event => {
-		if(event.id == 99999992 || event.id == 99999993)
-		{	
+		if(event.npc == 99999992 || event.npc == 99999993)
+		{
 			setTimeout(notifier, 0);
-			setTimeout(notifier, 250);
-			setTimeout(notifier, 500);
-			setTimeout(notifier, 750);
 			setTimeout(notifier, 1000);
+			setTimeout(notifier, 2000);
+			setTimeout(notifier, 3000);
+			setTimeout(notifier, 4000);
 		}
 	})
 	
